@@ -1,0 +1,229 @@
+.hero-shop{
+    max-width: 1440px;
+    padding: 0px 160px;
+    /* border: 1px solid ; */
+
+}
+.shop-img-place-holder{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 20px;
+    flex-direction: column;
+}
+.shop-content .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.shop-content .links a{
+    text-decoration: none;
+}
+.shop-content h2{
+    font-size: 54px;
+    font-weight: 500;
+}
+.shop-content p{
+    font-size: 20px;
+
+}
+
+/* product section start here  */
+.product{
+    max-width: 1440px;
+    height: 1707px;
+    border: 1px solid ;
+    display: flex;
+    padding: 20px 60px;
+    gap: 20px;
+}
+.product-carousel{
+    display: flex;
+    flex-direction: column;
+    width: 834px;
+    height: 1547px;
+    border: 1px solid;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 20px;
+
+}
+.carousel-header{
+
+    display: flex;
+    /* border: 1px solid; */
+    width: 830px;
+    height: 30px;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+.carousel-header .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.carousel-header .icons i:hover{
+    /* border: 1px solid ; */
+    color: #807E7E;
+    font-size: 1.3rem;
+}
+.carousel-header h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sidebar{
+    width: 262px;
+    height: 862px;
+    border: 1px solid ;
+    display: flex;
+    padding: auto;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    gap: 30px;
+}
+.side-bar-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.element{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 25px;
+    text-align: left;
+}
+.element ul {
+    display: flex ;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+
+}
+.element ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 110px;
+}
+.element ul li label:hover{
+    color: black;
+    border-bottom: 2px solid ;
+}
+.element ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    /* color: black; */
+    color: #807E7E;
+
+}
+.element ul li a:hover{
+    color: black;
+    border-bottom: 2px solid gray;
+}
+.product .element ul li{
+    color: #807E7E;
+}
+#brdr-blck a{
+    color: black;
+    padding: .3rem;
+    border-bottom: 2px solid black;
+}
+.grid-container{
+    
+    width: 834px;
+    height: 1560px;
+    /* border: 1px solid; */
+}
+/* Grid-container ke liye style */
+.grid-container {
+    display: grid; /* Grid system activate */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns banaye */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows banaye */
+    gap: 10px; /* Items ke beech 10px gap */
+    margin: 20px;
+    height: 1550px; /* Grid ka height set kiya */
+  }
+  
+  /* Har ek grid item ka style */
+  .grid-item {
+    /* background-color: #4caf50; */
+    /* color: white; */
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 8px;
+    /* border: 1px solid ; */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    
+    
+  }
+  .grid-item .img-plceholder{
+    width: 264px;
+    height: 349px;
+    /* border: 1px solid; */
+  }
+  .grid-item .img-plceholder img{
+    width: 100%;
+    height: 100%;
+
+  }
+  .grid-item .content-grid{
+    width: 262px;
+    height: 102px;
+    /* border: 1px solid ; */
+    left: ;
+  }
+  .content-grid{
+    display: flex;
+    
+    flex-direction: column;
+
+    padding: 2px 2px;
+    gap: 5px;
+   
+  }
+
+/* product section ends here  */
+
+
+
+
+
+@media screen and (max-width:450px) {
+    .hero-shop{
+        min-width: 375px ;
+        /* display: flex; */
+        height: 310px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .shop-img-place-holder img{
+        width: 311px;
+        height: 308px;
+    }
+
+    .shop-content h2{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .shop-content p{
+        font-size: 16px;
+    
+    }
+    
+}
